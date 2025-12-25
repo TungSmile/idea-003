@@ -15,31 +15,38 @@ export class card extends Component {
 
     @property({ type: Node })
     Level: Node = null;
-    
+
+    @property({ type: Node })
+    image: Node = null;
+
 
     Icon = -1;
     Frame = -1;
     coloerBG = -1;
     textEff = "???";
+    lever = -1;
 
     start() {
 
     }
 
-    createCard(data) {
+    saveInfo(data) {
         let t = this;
+        t.Icon = data.icon;
+        t.Frame = data.icon;
+        t.coloerBG = data.icon;
+        t.lever = -1;
+    }
 
 
+    getIconCard(img: SpriteFrame) {
+        let t = this;
+        t.image.getComponent(Sprite).spriteFrame=img;
     }
 
 
 
-
-    getIconCard(icon: SpriteFrame) {
-        let t = this;
-
-    }
-
+    
 
 
 

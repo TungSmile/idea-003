@@ -5,6 +5,7 @@ const { ccclass, property } = _decorator;
 export class ctlBoard extends Component {
 
 
+    
 
 
     start() {
