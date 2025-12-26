@@ -11,38 +11,69 @@ export class GamePlay extends Component {
     }
 
 
+    // idea simulation heart stone + mini game (i foget name)
 
-    // how to play
-    // game card turn base
+    // play
+
+    // every player get 100 hp/game
     // 
+    // 1 desk incluse 20 card
+    // 1 turn darw 4 card
+    // 1 phase player claim 20 crytal
 
-    // rank chese
-    // hop dao-5
-    // nguyen anh -4
-    // kim dan -3
-    // truc co -2
-    // luyen khi -1
+    // turn base 
+    //  1 turn has 2 phase (atk / def) 
+
+    // market (work by coin )
 
 
-    // maps   7x7,...
-    //     2 3 4 5 4 3 2
-    //     0 0 0 0 0 0 0
-    //     1 0 1 0 1 0 1
-    //     0 0 0 0 0 0 0
-    //     0 0 0 0 0 0 0
-    //     0 0 0 0 0 0 0
-    //     3 3 4 5 4 3 3
-
-    // every player have 1 pool create monter
-    // PoolMonter :
-    // - trade 1 monter = 2 card element
-    // - cant destroy by normal attack
-    // 
+    // map  5*5
+    // 0 0 0 0 0 
+    // 0 0 0 0 0 
+    // 0 0 0 0 0 
+    // 0 0 0 0 0 
+    // 0 0 0 0 0 
+    // map include :
+    // - grave: contain card has been user every turn;
+    // - market : player can buy effective or card 
+    // - field :where monter card can deploy
 
 
 
+    // 1 crytal = 2 coin
 
 
+    // type 1 : metal, wood , water , fire , earth ;
+    // type 2 : wind , electric , dard ,light ;
+    // type 3 : god ,evil
+
+    //
+
+
+
+    getDataPlayer() {
+        let t = this;
+
+    }
+
+
+    getDataEnemy() {
+        let t = this;
+    }
+
+    setUpDesk() {
+        let t = this;
+    }
+
+
+    setUpBroad() {
+        let t = this;
+    }
+
+
+
+
+    
     update(deltaTime: number) {
 
     }
