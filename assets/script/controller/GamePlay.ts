@@ -17,8 +17,10 @@ export class GamePlay extends Component {
 
     // every player get 100 hp/game
     // 
-    // 1 desk incluse 20 card
-    // 1 turn darw 4 card
+    // 1 desk incluse 10 card
+    // frisr turn darw 4 card
+    // 1 turn darw 1 card
+
     // 1 phase player claim 20 crytal
 
     // turn base 
@@ -35,12 +37,8 @@ export class GamePlay extends Component {
     // 0 0 0 0 0 
     // map include :
     // - grave: contain card has been user every turn;
-    // - market : player can buy effective or card 
+    // - market : player can buy effective or card  (reject) 
     // - field :where monter card can deploy
-
-
-
-    // 1 crytal = 2 coin
 
 
     // type 1 : metal, wood , water , fire , earth ;
@@ -70,10 +68,12 @@ export class GamePlay extends Component {
         let t = this;
     }
 
+    setTypeGame() {
+        let t = this;
+    }
 
 
 
-    
     update(deltaTime: number) {
 
     }
