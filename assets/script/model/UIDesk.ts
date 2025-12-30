@@ -1,8 +1,8 @@
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('effectDesk')
-export class effectDesk extends Component {
+@ccclass('UIDesk')
+export class UIDesk extends Component {
     start() {
 
     }
